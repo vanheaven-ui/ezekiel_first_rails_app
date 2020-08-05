@@ -8,7 +8,13 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 #Add manually
 gem 'sassc', '~> 2.1.0'
 # Use pg as the database for Active Record
-gem  'sqlite3', '~> 1.4'
+group :development, :test do
+ gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
