@@ -8,8 +8,9 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 #Add manually
 gem 'sassc', '~> 2.1.0'
 group :development, :test do
-  gem 'sqlite3'
+ gem 'sqlite3'
 end
+
 group :production do
   gem 'pg'
 end
