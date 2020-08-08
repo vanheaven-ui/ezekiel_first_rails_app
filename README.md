@@ -13,7 +13,7 @@ The versions used in this repository are:
 No dependencies were added but the default rails dependencies.
 
 ## App demo link
-You are welcome to interact with the simple car app [here](https://pure-sierra-60769.herokuapp.com/)
+You are welcome to interact with the simple car app <a href= "https://pure-sierra-60769.herokuapp.com/" target="_blank">**HERE**</a>
 
 👤 **Mworekwa Ezekiel**
 
